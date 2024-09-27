@@ -140,7 +140,7 @@ Una vez que los módulos de detección de línea y control de motores fueron imp
 
 ## Evidencias
 ### Funcionamiento del seguidor de linea
-[Video del seguidor de linea funcionando]([https://youtu.be/Rz2FMOGiUpI])
+[Video del seguidor de linea funcionando](https://youtu.be/Rz2FMOGiUpI)
 
 ### Montaje del chasis para el seguidor de linea
 ![Chasis terminado](Evidencias/Chasis.jpeg)
