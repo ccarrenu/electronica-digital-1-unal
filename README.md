@@ -129,7 +129,9 @@ La implementación del seguidor de línea basado en la FPGA BlackIce fue realiza
 3. **Integración de módulos:**
 Una vez que los módulos de detección de línea y control de motores fueron implementados por separado, se integraron en el diseño general del sistema. Esta integración permitió que el vehículo pudiera manejar las dos funcionalidades (seguir la línea y controlar la velocidad/dirección de los motores) de manera simultánea. La lógica fue probada en simulaciones utilizando herramientas de simulación de FPGA, verificando que todas las señales estuvieran correctamente sincronizadas y que los módulos interactuaran sin problemas.
 
+
  ## Referencias
+ - Información FPGA BlackIce40: https://github.com/johnnycubides/digital-electronic-1-101/tree/main/fpga-example/ice40-hx4k-MyStorm-BlackIce-Mx
  - Información Modulo TCRT5000: https://ferretronica.com/products/modulo-tcrt5000-sensor-infrarrojo-seguidor-de-linea?srsltid=AfmBOorXsOP5AKXPBsDTUPDRSAG_Bm-GB7WUulcOhOpGDPhr1Ufduubi
  - Información Modulo L298: https://naylampmechatronics.com/blog/11_tutorial-de-uso-del-modulo-l298n.html
  - Información bateria IonLitio: https://www.iberdrola.com/innovacion/baterias-ion-litio
