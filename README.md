@@ -140,15 +140,19 @@ Una vez que los módulos de detección de línea y control de motores fueron imp
 
 ## Evidencias
 ### Montaje del chasis para el seguidor de linea
-![Montaje de chasis](Evidencias/Carrito.jpeg#width=200)
-![Montaje de chasis](Evidencias/MontajeCarrito.jpeg)
+![Chasis terminado](Evidencias/Chasis.jpeg)
 ### Diagrama de flujo y de bloques
-![Proceso de construcción del diagrama](Evidencias/ProcesoDiagrama.jpeg)
 ![Diagrama de bloques](Evidencias/DiagramaBloques.jpg)
 ![diagrama de flujo](Evidencias/DiagramaFlujo.jpeg)
 
 ### Esquematico del proyecto
 ![Esquemático del proyecto](Evidencias/Esquematico.png)
+
+### Proceso del proyecto
+![Montaje de chasis](Evidencias/Carrito.jpeg)
+![Montaje de chasis](Evidencias/MontajeCarrito.jpeg)
+![Proceso de construcción del diagrama](Evidencias/ProcesoDiagrama.jpeg)
+
 
 ## ¿Cómo ejecutarlo el ejemplo?
 
