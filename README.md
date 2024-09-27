@@ -139,7 +139,16 @@ Una vez que los módulos de detección de línea y control de motores fueron imp
  - Información del modulo de carga y descarga: https://www.ingmecafenix.com/automatizacion/motores-industriales/motorreductor/
 
 ## Evidencias
-![Montaje de chasis](Evidencias/Carrito.jpeg#width=250)
+### Montaje del chasis para el seguidor de linea
+![Montaje de chasis](Evidencias/Carrito.jpeg)
+![Montaje de chasis](Evidencias/MontajeCarrito.jpeg)
+### Diagrama de flujo y de bloques
+![Proceso de construcción del diagrama](Evidencias/ProcesoDiagrama.jpeg)
+![Diagrama de bloques](Evidencias/Diagrama de Bloques.jpg)
+![diagrama de flujo](Evidencias/Diagrama de Flujo.jpeg)
+
+### Esquematico del proyecto
+![Esquemático del proyecto](Evidencias/Esquemático.jpeg)
 
 ## ¿Cómo ejecutarlo el ejemplo?
 
