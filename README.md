@@ -144,11 +144,11 @@ Una vez que los módulos de detección de línea y control de motores fueron imp
 ![Montaje de chasis](Evidencias/MontajeCarrito.jpeg)
 ### Diagrama de flujo y de bloques
 ![Proceso de construcción del diagrama](Evidencias/ProcesoDiagrama.jpeg)
-![Diagrama de bloques](Evidencias/Diagrama de Bloques.jpg)
-![diagrama de flujo](Evidencias/Diagrama de Flujo.jpeg)
+![Diagrama de bloques](Evidencias/DiagramaBloques.jpg)
+![diagrama de flujo](Evidencias/DiagramaFlujo.jpeg)
 
 ### Esquematico del proyecto
-![Esquemático del proyecto](Evidencias/Esquemático.jpeg)
+![Esquemático del proyecto](Evidencias/Esquematico.png)
 
 ## ¿Cómo ejecutarlo el ejemplo?
 
