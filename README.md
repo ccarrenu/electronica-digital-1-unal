@@ -139,6 +139,9 @@ Una vez que los módulos de detección de línea y control de motores fueron imp
  - Información del modulo de carga y descarga: https://www.ingmecafenix.com/automatizacion/motores-industriales/motorreductor/
 
 ## Evidencias
+### Funcionamiento del seguidor de linea
+[Video del seguidor de linea funcionando]([https://youtu.be/Rz2FMOGiUpI])
+
 ### Montaje del chasis para el seguidor de linea
 ![Chasis terminado](Evidencias/Chasis.jpeg)
 ### Diagrama de flujo y de bloques
