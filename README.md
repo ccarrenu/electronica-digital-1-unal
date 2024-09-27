@@ -66,7 +66,7 @@ Los motores son controlados a través del driver L298N, que permite manejar dos 
 - **Lógica de control:**
 	- Entradas: Señales digitales generadas por la lógica de detección de línea.
 	- PWM (Pulse Width Modulation): Se utiliza la modulación por ancho de pulso para controlar la velocidad de los motores. Las señales PWM se generan directamente en la FPGA, controlando la duración de los pulsos enviados al L298N. Son dos senales binarias, ENA para el motor izquierdo y ENB para el motor derecho.
-	- Dirección: Dos señales binarias (IN1 y IN2) controlan la dirección de rotación de los motores. Si ambas señales están en alto, el motor avanza. Si están en bajo, el motor retrocede.
+	- Dirección: Dos señales binarias (IN1 y IN2) controlan la dirección de rotación de los motores. Si ambas señales están en alto, el motor avanza. Si están en bajo, el motor se detiene.
 - **Comportamiento:**
 	- Recto: Ambos motores giran en la misma dirección y velocidad.
 	- Giro a la derecha: El motor izquierdo se detiene mientras el motor derecho sigue girando, haciendo que el vehículo gire.
@@ -125,7 +125,16 @@ La implementación del seguidor de línea basado en la FPGA BlackIce fue realiza
 	- Ciclo de trabajo: El ciclo de trabajo del PWM fue ajustado para controlar la velocidad de los motores. Un ciclo de trabajo del 50% permitió que los motores giraran a velocidad media, mientras que ciclos más altos aumentaron la velocidad.
 	- Señales de control: Las señales in1 e in2 del driver L298N fueron gestionadas por la FPGA para controlar la dirección de los motores. Combinando estas señales, se puede lograr tanto movimiento hacia adelante como hacia atrás.
 
+
 3. **Integración de módulos:**
 Una vez que los módulos de detección de línea y control de motores fueron implementados por separado, se integraron en el diseño general del sistema. Esta integración permitió que el vehículo pudiera manejar las dos funcionalidades (seguir la línea y controlar la velocidad/dirección de los motores) de manera simultánea. La lógica fue probada en simulaciones utilizando herramientas de simulación de FPGA, verificando que todas las señales estuvieran correctamente sincronizadas y que los módulos interactuaran sin problemas.
 
-## Evidencias
+ ## Referencias
+ - Información Modulo TCRT5000: https://ferretronica.com/products/modulo-tcrt5000-sensor-infrarrojo-seguidor-de-linea?srsltid=AfmBOorXsOP5AKXPBsDTUPDRSAG_Bm-GB7WUulcOhOpGDPhr1Ufduubi
+ - Información Modulo L298: https://naylampmechatronics.com/blog/11_tutorial-de-uso-del-modulo-l298n.html
+ - Información bateria IonLitio: https://www.iberdrola.com/innovacion/baterias-ion-litio
+ - Información motorreductor: https://www.ingmecafenix.com/automatizacion/motores-industriales/motorreductor/
+ - Información del modulo de carga y descarga: https://www.ingmecafenix.com/automatizacion/motores-industriales/motorreductor/
+
+
+
