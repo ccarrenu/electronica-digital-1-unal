@@ -1,0 +1,20 @@
+# Asignaciones de pines
+
+# Sensores
+set_io sensor_izquierdo 37  # Pin P9 para el sensor izquierdo
+set_io sensor_derecho 38    # Pin P8 para el sensor derecho
+
+# Reset
+set_io reset 18             # Pin P24 para el reset
+
+# Reloj
+set_io clk 60               # Pin 60 para el reloj
+
+# Salidas del driver L298N
+set_io ENA 34               # Pin P10 para la salida ENA
+set_io IN1 33               # Pin P11 para la salida IN1
+set_io ENB 29               # Pin P12 para la salida ENB
+set_io IN3 28               # Pin P13 para la salida IN2
+
+# Restricciones de colocación (opcional)
+#set_location uut 0 0       # Colocar la instancia uut en (0,0)
