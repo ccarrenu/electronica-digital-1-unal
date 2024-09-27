@@ -46,11 +46,11 @@ El sensor TCRT5000 es un módulo infrarrojo que detecta la presencia de una lín
 
 Lógica de funcionamiento:
 Entrada: Señal analógica del sensor TCRT5000.
-Conversión: La señal analógica se convierte en una señal digital mediante un comparador simple en la FPGA, donde se asigna un umbral para determinar si el sensor está sobre la línea.
+Conversión: La señal digital asigna un estado para determinar si el sensor está sobre la línea.
 Salida: La lógica combinacional genera dos señales de salida que indican si el vehículo está centrado, desviado hacia la izquierda o la derecha respecto a la línea. Estas señales se utilizan para activar los motores de forma adecuada.
 Estructura:
 Comparadores: Implementados en la FPGA para interpretar la señal del sensor.
-Decisión binaria: La lógica analiza si el valor del sensor es mayor o menor que el umbral y decide si el vehículo debe girar o mantener su curso.
+Decisión binaria: La lógica analiza si el valor del sensor capta señal y decide si el vehículo debe girar o mantener su curso.
 Comportamiento:
 Si ambos sensores (izquierdo y derecho) están sobre la línea, el vehículo se mantiene recto.
 Si el sensor derecho detecta la línea pero el izquierdo no, el vehículo gira hacia la izquierda.
